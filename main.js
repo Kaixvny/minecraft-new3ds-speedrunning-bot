@@ -85,7 +85,7 @@ client.on('message', message =>{
                                                               }});
 
                                                               if(command === 'requestcommand'){
-                                                                message.channel.send('Request sent to @447818513906925588 !')
+                                                                message.channel.send('Request sent to <@447818513906925588> !')
                                                                 }
 
 
