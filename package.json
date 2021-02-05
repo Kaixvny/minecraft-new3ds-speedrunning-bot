@@ -1,7 +1,7 @@
 {
   "name": "minecraft-new3ds-speedrunning-bot",
-  "version": "0.0.1",
-  "description": "not set",
+  "version": "0.0.9",
+  "description": "A Discord bot made for the Obscure Minecraft Speedrunning Server",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
