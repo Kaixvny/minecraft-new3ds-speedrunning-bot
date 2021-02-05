@@ -8,15 +8,8 @@ client.on('ready', () => {
  console.log('N3DS Bot is online! LETS GOOOOOO!')
 });
 
-client.on("ready", () =>{
-    console.log(`Logged in as ${client.user.tag}!`);
-    client.user.setPresence({
-        status: "online",  // You can show online, idle... Do not disturb is dnd
-        game: {
-            name: "!help",  // The message shown
-            type: "PLAYING" // PLAYING, WATCHING, LISTENING, STREAMING,
-        }
-    });
+Client.on('ready', async () => {
+    await client.user.setPresence({ game: { name: 'name' }, status: 'idle' });
  });
 
 client.on('message', message =>{
