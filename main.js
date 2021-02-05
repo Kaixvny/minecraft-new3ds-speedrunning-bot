@@ -61,8 +61,12 @@ client.on('message', message =>{
                                     }
 
                                     if(command === 'guides'){
-                                        message.channel.send('**Guides on speedrun.com!** \n \n How To Install a New3DS Emulator - User: Firewall - Last update: 1 month ago \n \n Minecraft: New 3DS Edition In-Game Controls - User: daffective - Last updated: 5 months ago \n \n RSG Route - User: CadenG150 - Last updated: 5 months ago \n \n **Select the guide you want to read with** `n3ds!guide1, 2, or 3` \n \n **NOTE: These guides are created by runners and not game moderators unless stated otherwise!**')
-                                        }
+                                        message.channel.send({embed: {
+                                            "title": "**Guides for \"Minecraft: New Nintendo 3DS Edition\" on speedrun.com!**",
+                                            "description": "[How To Install a New3DS Emulator](https://www.speedrun.com/mc3ds/guide/i3vd1) - User: [Firewall](https://www.speedrun.com/user/Firewall) - Last update: 1 month ago\n\n[Minecraft: New 3DS Edition In-Game Controls](https://www.speedrun.com/mc3ds/guide/d1e5c) - User: [daffective](https://www.speedrun.com/user/daffective) - Last updated: 5 months ago\n\n [RSG Route](https://www.speedrun.com/mc3ds/guide/5yzg6) - User: [CadenG150](https://www.speedrun.com/user/CadenG150) - Last updated: 5 months ago\n\n**Select the guide you want to read with** `n3ds!guide1, 2, or 3`\n\n**NOTE: These guides are created by runners and not game moderators unless stated otherwise!**",
+                                            "color": 3680148
+                                        }});
+                                    }
 
                                         if(command === 'guide1'){
                                             message.channel.send('By Firewall - Last updated 1 month ago \n \n 1- Click On The Link Down Below \nhttps://citra-emu.org/download/ \n2-Install \n \n **NOTE: These guides are created by runner and not game moderators unless stated otherwise!**')
