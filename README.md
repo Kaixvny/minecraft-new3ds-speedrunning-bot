@@ -4,7 +4,7 @@ A Discord bot made for the Obscure Minecraft Speedrunning Server
 
 # IMPORTANT!
 
-This is in a Pre-Alpha state! This has barely any commands! Version: 0.0.1 | Commands: 1
+This is in a Pre-Alpha state! This has barely any commands! Version: 0.0.9 | Commands: 13
 
 ## Install
 
