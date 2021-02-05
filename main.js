@@ -68,6 +68,11 @@ client.on('message', message =>{
                                                     message.channel.send('By CadenG150 - Last updated 5 months ago \N \N 1. Get nether \n 2. 6/7rods \n 3. 1 enderman (nether/overworld) \n 4. Make 1 eye \n -Locate stronghold using eye \n 5. Check if theres a librarian and cleric (if not reset, its gonna take a while kinda) \n 6. Go to stronghold library \n 7. Farm a ton of books (take paper from chests too) \n 8. Trade and get pearls \n 9. Done \n \n - Note : the gold you need should be from a chest in a fortress or just mine near the stronghold at y32 or below \n \n Credit: Khalooody \n \n **NOTE: These guides are created by runners and not game moderators unless stated otherwise!**')
                                                     }
 
+                                                    if(command === 'request'){
+                                                        message.channel.send('Request sent to <@447818513906925588> !')
+                                                        }
+
+
                                                     if(command === 'mods'){
                                                         message.channel.send({embed: {
                                                             "title": "**Moderators for \"Minecraft: New 3DS Edition\"**",
@@ -83,16 +88,6 @@ client.on('message', message =>{
                                                                 "description": "**Seed:** 2684184464\n\n[Run on speedrun.com](https://www.speedrun.com/mc3ds/run/z1o10ljm)",
                                                                 "color": 11010048
                                                               }});
-
-                                                              if(command === 'requestcommand'){
-                                                                message.channel.send('Request sent to <@447818513906925588> !')
-                                                                }
-
-
-
-
-
-                                                              
                                                             }
 });
 
