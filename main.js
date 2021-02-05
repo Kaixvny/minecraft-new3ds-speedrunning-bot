@@ -82,9 +82,16 @@ client.on('message', message =>{
                                                                     "color": 11010048
                                                                   }
                                                                 ]
-                                                            }
-                                                        }
-                                                     )
+                                                              }
+                                                                
+                                                              });
+
+
+
+
+
+
+                                                              
                                                             }
 });
 
