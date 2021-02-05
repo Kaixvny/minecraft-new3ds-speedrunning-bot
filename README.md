@@ -19,3 +19,7 @@ Discord.js | In a command terminal cd to the bot folder and do `npm install disc
 ### Launch
 
 Launch the bot in a command terminal with `node main.js` and you're ready to go. (Make sure to "cd" to the bot folder)
+
+###### Update Notice
+
+This bot is manually updated! It doesn't use src-api.
