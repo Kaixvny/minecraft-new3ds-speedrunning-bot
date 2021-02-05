@@ -14,10 +14,12 @@ client.on("ready", () =>{
         status: "online",
         game: {
           name: "Watching Minecraft New3DS Leaderboard | n3ds!",  //The message shown
-            type: "WATCHING:" //PLAYING: WATCHING: LISTENING: STREAMING:
+            type: "PLAYING" //PLAYING: WATCHING: LISTENING: STREAMING:
         }
     });
  });
+
+ client.user.setActivity("Prefix: n3ds!"); 
 
 client.on('message', message =>{
     if(!message.content.startsWith(prefix) || message.author.bot) return;
