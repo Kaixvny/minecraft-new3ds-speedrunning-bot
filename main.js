@@ -69,8 +69,13 @@ client.on('message', message =>{
                                                     }
 
                                                     if(command === 'mods'){
-                                                        message.channel.send('**Moderators for "Minecraft: New 3DS Edition"** \n \n <:Supermod:802707602667601940> ReniSR \n <:Supermod:802707602667601940> DarkSRC \n <:Supermod:802707602667601940> _Riley \n <:Supermod:802707602667601940> Insert \n <:Mod:802707941596856320> Khalooody \n <:Mod:802707941596856320> blunderpolicy')
-                                                        }
+                                                        message.channel.send({embed: {
+                                                            "title": "**Moderators for \"Minecraft: New 3DS Edition\"**",
+                                                            "description": "<:Supermod:802707602667601940>  [ReniSR](https://www.speedrun.com/user/ReniSR)\n<:Supermod:802707602667601940>  [DarkSRC](https://www.speedrun.com/user/DarkSRC)\n<:Supermod:802707602667601940>  [_Riley](https://www.speedrun.com/user/_Riley)\n<:Supermod:802707602667601940>  [Insert](https://www.speedrun.com/user/Insert)\n<:Mod:802707941596856320>  [Khalooody](https://www.speedrun.com/user/Khalooody)\n<:Mod:802707941596856320>  [blunderpolicy](https://www.speedrun.com/user/blunderpolicy)",
+                                                            "color": 12788772,
+                                                            "footer": {
+                                                              "text": "Source from speedrun.com"
+                                                          }}})};
 
                                                         if(command === 'bedrockssg'){
                                                             message.channel.send({embed: {
