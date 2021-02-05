@@ -2,7 +2,7 @@
 
 A Discord bot made for the Obscure Minecraft Speedrunning Server
 
-#IMPORTANT!
+# IMPORTANT!
 
 This is in a Pre-Alpha state! This has barely any commands! Version: 0.0.1 | Commands: 1
 
