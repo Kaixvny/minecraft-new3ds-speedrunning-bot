@@ -78,15 +78,4 @@ client.on('message', message =>{
     message.channel.send('^^ \n fair')
 });
 
-function doMagic8BallVoodoo() {
-    var rand = ['Yes', 'No', 'Why are you even trying?', 'What do you think? NO', 'Maybe', 'Never', 'Yep'];
-
-    return rand[Math.floor(Math.random()*rand.length)];
-}
-
-if(input == "n3ds!8b")
-{
-    bot.reply(message, 'Your anwser is: ' + doMagic8BallVoodoo());
-}
-
 client.login(process.env.token);
