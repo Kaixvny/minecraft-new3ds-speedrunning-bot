@@ -1,1 +1,17 @@
-# minecraft-new3ds-speedrunning-bot
+# Minecraft New3ds Speedrunning Bot
+
+A Discord bot made for the Obscure Minecraft Speedrunning Server
+
+## Install
+
+### Requirements
+
+Node.js | https://nodejs.org/en/
+
+Visual Studio Code (Or any coding studio that supports JavaScript would work) | https://code.visualstudio.com/
+
+Discord.js | In a command terminal cd to the bot folder and do `npm install discord.js`
+
+### Launch
+
+Launch the bot in a command terminal with `node main.js` and you're ready to go. (Make sure to "cd" to the bot folder)
