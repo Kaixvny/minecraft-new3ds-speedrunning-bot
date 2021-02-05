@@ -20,6 +20,14 @@ client.on('message', message =>{
     message.channel.send('Any% - Set Seed - 9m 54s 033ms - By "blunderpolicy" \n Seed: 66898262 \n Run: https://www.speedrun.com/mc3ds/run/yd90epxz')
     }
 
+    if(command === 'ss'){
+        message.channel.send({embed: {
+            "title": "Any% - Set Seed - 9m 54s 033ms - By \"blunderpolicy\"",
+            "description": "**Seed:** 66898262\n\n[Run on speedrun.com](https://www.speedrun.com/mc3ds/run/yd90epxz)",
+            "color": 382794
+          }});
+        }
+
     if(command === 'ssg'){
         message.channel.send('*There are no runs.*')
         }
@@ -89,6 +97,14 @@ client.on('message', message =>{
                                                                 "color": 11010048
                                                               }});
                                                             }
+
+                                                            if(command === 'bedrockssg'){
+                                                                message.channel.send({embed: {
+                                                                    "title": "**Guides for \"Minecraft: New Nintendo 3DS Edition\" on speedrun.com!**",
+                                                                    "description": "[How To Install a New3DS Emulator](https://www.speedrun.com/mc3ds/guide/i3vd1) - User: [Firewall](https://www.speedrun.com/user/Firewall) - Last update: 1 month ago\n\n[Minecraft: New 3DS Edition In-Game Controls](https://www.speedrun.com/mc3ds/guide/d1e5c) - User: [daffective](https://www.speedrun.com/user/daffective) - Last updated: 5 months ago\n\n [RSG Route](https://www.speedrun.com/mc3ds/guide/5yzg6) - User: [CadenG150](https://www.speedrun.com/user/CadenG150) - Last updated: 5 months ago\n\n**Select the guide you want to read with** `n3ds!guide1, 2, or 3`\n\n**NOTE: These guides are created by runners and not game moderators unless stated otherwise!**",
+                                                                    "color": 8502783
+                                                                  }});
+                                                                }
 });
 
 client.on('message', message =>{
