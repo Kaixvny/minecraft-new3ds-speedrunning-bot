@@ -73,7 +73,7 @@ client.on('message', message =>{
                                                         }
 
                                                         if(command === 'bedrockssg'){
-                                                            message.channel.send({
+                                                            message.channel.send({embed: {
                                                                 "content": null,
                                                                 "embeds": [
                                                                   {
@@ -82,7 +82,9 @@ client.on('message', message =>{
                                                                     "color": 11010048
                                                                   }
                                                                 ]
-                                                              })
+                                                            }
+                                                        }
+                                                     )
                                                             }
 });
 
