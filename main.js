@@ -72,4 +72,4 @@ client.on('message', message =>{
     message.channel.send('^^ \n fair')
 });
 
-client.login('YOUR BOT TOKEN HERE');
+client.login(process.env.token);
