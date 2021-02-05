@@ -74,18 +74,10 @@ client.on('message', message =>{
 
                                                         if(command === 'bedrockssg'){
                                                             message.channel.send({embed: {
-                                                                "content": null,
-                                                                "embeds": [
-                                                                  {
-                                                                    "title": "Misc. - Glitchless - Set Seed - 1m 14s - By \"That1Guy05\"",
-                                                                    "description": "**Seed:** 2684184464\n\n[Run on speedrun.com](https://www.speedrun.com/mc3ds/run/z1o10ljm)",
-                                                                    "color": 11010048
-                                                                  }
-                                                                ]
-                                                              }
-                                                                
-                                                              });
-
+                                                                "title": "Misc. - Glitchless - Set Seed - 1m 14s - By \"That1Guy05\"",
+                                                                "description": "**Seed:** 2684184464\n\n[Run on speedrun.com](https://www.speedrun.com/mc3ds/run/z1o10ljm)",
+                                                                "color": 11010048
+                                                              }});
 
 
 
