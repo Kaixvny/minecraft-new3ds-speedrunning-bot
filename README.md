@@ -1,4 +1,4 @@
-# Minecraft New3ds Speedrunning Bot
+# Minecraft New3DS Speedrunning Bot
 
 A Discord bot made for the Obscure Minecraft Speedrunning Server
 
