@@ -19,8 +19,6 @@ client.on("ready", () =>{
     });
  });
 
- client.user.setActivity("Prefix: n3ds!"); 
-
 client.on('message', message =>{
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
