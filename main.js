@@ -8,6 +8,17 @@ client.on('ready', () => {
  console.log('N3DS Bot is online! LETS GOOOOOO!')
 });
 
+client.on("ready", () =>{
+    console.log(`Logged in as ${client.user.tag}!`);
+    client.user.setPresence({
+        status: "online",
+        game: {
+          name: "Watching Minecraft New3DS Leaderboard | n3ds!",  //The message shown
+            type: "WATCHING" //PLAYING: WATCHING: LISTENING: STREAMING:
+        }
+    });
+ });
+
 client.on('message', message =>{
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
