@@ -14,7 +14,7 @@ client.on("ready", () =>{
         status: "online",
         game: {
           name: "Watching Minecraft New3DS Leaderboard | n3ds!",  //The message shown
-            type: "WATCHING" //PLAYING: WATCHING: LISTENING: STREAMING:
+            type: "WATCHING:" //PLAYING: WATCHING: LISTENING: STREAMING:
         }
     });
  });
