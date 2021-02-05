@@ -76,4 +76,4 @@ client.on('message', message =>{
     message.channel.send('^^ \n fair')
 });
 
-client.login(process.env.token);
+client.login('INSERT TOKEN');
