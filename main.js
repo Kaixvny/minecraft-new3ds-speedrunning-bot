@@ -71,6 +71,19 @@ client.on('message', message =>{
                                                     if(command === 'mods'){
                                                         message.channel.send('**Moderators for "Minecraft: New 3DS Edition"** \n \n <:Supermod:802707602667601940> ReniSR \n <:Supermod:802707602667601940> DarkSRC \n <:Supermod:802707602667601940> _Riley \n <:Supermod:802707602667601940> Insert \n <:Mod:802707941596856320> Khalooody \n <:Mod:802707941596856320> blunderpolicy')
                                                         }
+
+                                                        if(command === 'ssg bedrock'){
+                                                            message.channel.send({
+                                                                "content": null,
+                                                                "embeds": [
+                                                                  {
+                                                                    "title": "Misc. - Glitchless - Set Seed - 1m 14s - By \"That1Guy05\"",
+                                                                    "description": "**Seed:** 2684184464\n\n[Run on speedrun.com](https://www.speedrun.com/mc3ds/run/z1o10ljm)",
+                                                                    "color": 11010048
+                                                                  }
+                                                                ]
+                                                              })
+                                                            }
 });
 
 client.on('message', message =>{
