@@ -8,9 +8,7 @@ client.on('ready', () => {
  console.log('N3DS Bot is online! LETS GOOOOOO!')
 });
 
-Client.on('ready', async () => {
-    await client.user.setPresence({ game: { name: 'name' }, status: 'idle' });
- });
+client.once('ready', () => { client.user.setActivity('Bots', { type: "WATCHING" }); });
 
 client.on('message', message =>{
     if(!message.content.startsWith(prefix) || message.author.bot) return;
