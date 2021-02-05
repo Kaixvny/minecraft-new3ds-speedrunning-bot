@@ -8,7 +8,7 @@ client.on('ready', () => {
  console.log('N3DS Bot is online! LETS GOOOOOO!')
 });
 
-client.once('ready', () => { client.user.setActivity('Bots', { type: "WATCHING" }); });
+client.once('ready', () => { client.user.setActivity('Watching Minecraft: N3DS Edition | n3ds!', { type: "WATCHING" }); });
 
 client.on('message', message =>{
     if(!message.content.startsWith(prefix) || message.author.bot) return;
