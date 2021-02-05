@@ -84,6 +84,10 @@ client.on('message', message =>{
                                                                 "color": 11010048
                                                               }});
 
+                                                              if(command === 'requestcommand'){
+                                                                message.channel.send('Request sent to @447818513906925588 !')
+                                                                }
+
 
 
 
