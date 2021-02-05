@@ -72,7 +72,7 @@ client.on('message', message =>{
                                                         message.channel.send('**Moderators for "Minecraft: New 3DS Edition"** \n \n <:Supermod:802707602667601940> ReniSR \n <:Supermod:802707602667601940> DarkSRC \n <:Supermod:802707602667601940> _Riley \n <:Supermod:802707602667601940> Insert \n <:Mod:802707941596856320> Khalooody \n <:Mod:802707941596856320> blunderpolicy')
                                                         }
 
-                                                        if(command === 'ssg bedrock'){
+                                                        if(command === 'bedrockssg'){
                                                             message.channel.send({
                                                                 "content": null,
                                                                 "embeds": [
