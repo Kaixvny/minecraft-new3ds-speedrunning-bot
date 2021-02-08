@@ -82,6 +82,10 @@ if(command === 'ss'){
                                                         message.channel.send('Request sent to <@447818513906925588> !')
                                                         }
 
+                                                        if(command === 'updaterequest'){
+                                                            message.channel.send('Update request sent to <@447818513906925588> !')
+                                                            }
+
 
                                                     if(command === 'mods'){
                                                         message.channel.send({embed: {
@@ -99,6 +103,13 @@ if(command === 'ss'){
                                                                 "color": 11010048
                                                               }});
                                                             }
+
+                                                            if(command === 'how2getgirl'){
+                                                                message.channel.send({embed: {
+                                                                    "description": "https://cdn.discordapp.com/attachments/806655639999873037/808173196050169886/unknown.png",
+                                                                 "color": null
+                                                                  }});
+                                                                }
 
                                                             if(command === 'bedrockssg'){
                                                                 message.channel.send({embed: {
