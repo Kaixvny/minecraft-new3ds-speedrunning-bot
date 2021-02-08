@@ -123,6 +123,11 @@ client.on('message', message =>{
 });
 
 client.on('message', message =>{
+    var delayInMilliseconds = 1000; //1 second
+
+setTimeout(function() {
+  //your code to be executed after 1 second
+}, delayInMilliseconds);
     if(!message.content.startsWith('Fair') || message.author.bot) return;
     message.channel.send('^^^^')
 });
