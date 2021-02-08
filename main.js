@@ -119,7 +119,17 @@ if(command === 'ss'){
 
 client.on('message', message =>{
     if(!message.content.startsWith('fair') || message.author.bot) return;
-    message.channel.send('^^ \n fair')
+    message.channel.send('^^^^')
+});
+
+client.on('message', message =>{
+    if(!message.content.startsWith('Fair') || message.author.bot) return;
+    message.channel.send('^^^^')
+});
+
+client.on('message', message =>{
+    if(!message.content.startsWith('FAIR') || message.author.bot) return;
+    message.channel.send('^^^^')
 });
 
 client.login(process.env.token);
