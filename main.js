@@ -104,11 +104,8 @@ if(command === 'ss'){
                                                               }});
                                                             }
 
-                                                            if(command === 'how2getgirl'){
-                                                                message.channel.send({embed: {
-                                                                    "description": "https://cdn.discordapp.com/attachments/806655639999873037/808173196050169886/unknown.png",
-                                                                 "color": null
-                                                                  }});
+                                                            if(command === 'updaterequest'){
+                                                                message.channel.send('https://cdn.discordapp.com/attachments/806655639999873037/808173196050169886/unknown.png')
                                                                 }
 
                                                             if(command === 'bedrockssg'){
