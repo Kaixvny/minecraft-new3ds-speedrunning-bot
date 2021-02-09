@@ -115,12 +115,15 @@ if(command === 'ss'){
                                                                     "color": 8502783
                                                                   }});
                                                                 }
+
+                                                            
 });
 
     if (message.author.id === "808726038389194752") {
-        if(command === 'fair'){
+        if(command === 'Fair'){
         message.channel.send('^^^^^^')
-    }
-     }
+    }}
+    
+
 
 client.login(process.env.token);
