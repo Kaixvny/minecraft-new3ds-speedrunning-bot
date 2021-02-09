@@ -119,7 +119,7 @@ if(command === 'ss'){
 
 client.on('message', message =>{
     if(!message.content.startsWith('Javascript? That hell of a messy code? That is horrible. Make your self a favor and use Python. Thank me later'))
-    message.channel.send(':sob:')
+    message.react('😭')
 });
 
 client.login(process.env.token);
