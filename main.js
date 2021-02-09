@@ -117,6 +117,8 @@ if(command === 'ss'){
                                                                 }
 });
 
+if (message.author.id === client.user.id) return;
+
 client.on('message', message =>{
     if(!message.content.startsWith('Javascript? That hell of a messy code? That is horrible. Make your self a favor and use Python. Thank me later'))
     message.react('😭')
