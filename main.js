@@ -123,4 +123,14 @@ client.on('message', message =>{
     message.react('😭')
 });
 
+const userID = "808836819432243231";
+
+client.on("message", message =>{
+    if (!message.content.startsWith('Fair') || message.author.id === client.user.id) return;
+    if (message.author.id === userID) {
+        message.channel.send('^^^^^');
+    }
+});
+
+
 client.login(process.env.token);
