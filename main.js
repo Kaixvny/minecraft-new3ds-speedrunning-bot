@@ -117,16 +117,10 @@ if(command === 'ss'){
                                                                 }
 });
 
-const userID = '<@808726038389194752>'
-
-client.on("message", function(message){
-    if(!message.author === userID)
-    {
-    
-    if(message.content === 'fair')
-        {
-            message.channel.send('^^^^^');
-        }
-    }});
+    if (message.author.id === "808726038389194752") {
+        if(command === 'fair'){
+        message.channel.send('^^^^^^')
+    }
+     }
 
 client.login(process.env.token);
