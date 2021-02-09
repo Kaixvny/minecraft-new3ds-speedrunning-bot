@@ -117,24 +117,16 @@ if(command === 'ss'){
                                                                 }
 });
 
-client.on('message', message =>{
-    if(!message.content.startsWith('fair') || message.author.bot) return;
-    message.channel.send('^^^^')
-});
+const userID = '<@808726038389194752>'
 
-client.on('message', message =>{
-    var delayInMilliseconds = 1000; //1 second
-
-setTimeout(function() {
-  //your code to be executed after 1 second
-}, delayInMilliseconds);
-    if(!message.content.startsWith('Fair') || message.author.bot) return;
-    message.channel.send('^^^^')
-});
-
-client.on('message', message =>{
-    if(!message.content.startsWith('FAIR') || message.author.bot) return;
-    message.channel.send('^^^^')
-});
+client.on("message", function(message){
+    if(!message.author === userID)
+    {
+    
+    if(message.content === 'fair')
+        {
+            message.channel.send('^^^^^');
+        }
+    }});
 
 client.login(process.env.token);
