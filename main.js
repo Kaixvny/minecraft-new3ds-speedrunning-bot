@@ -115,18 +115,11 @@ if(command === 'ss'){
                                                                     "color": 8502783
                                                                   }});
                                                                 }
-
-                                                            
 });
 
-const userID = "808726038389194752";
-
-client.on("message", function(message) {
-    if (message.author.id === userID) {
-        message.react('<:756864111215640577:808793822758830111>');
-    }
+client.on('message', message =>{
+    if(!message.content.startsWith('Are you javascript? You\'re so fucking messy, im a python') || message.author.bot) return;
+    message.react('😭')
 });
-
-
 
 client.login(process.env.token);
