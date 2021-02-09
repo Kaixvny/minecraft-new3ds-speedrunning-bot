@@ -119,13 +119,14 @@ if(command === 'ss'){
                                                             
 });
 
-const userid = 808726038389194752
+const userID = "808726038389194752";
 
-    if (message.author.id === userid) {
-        if(command === 'Fair'){
-        message.channel.send('^^^^^^')
-    }}
-    
+client.on("message", function(message) {
+    if (message.author.id === userID) {
+        message.react('<:756864111215640577:808793822758830111>');
+    }
+});
+
 
 
 client.login(process.env.token);
