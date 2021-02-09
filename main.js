@@ -119,7 +119,9 @@ if(command === 'ss'){
                                                             
 });
 
-    if (message.author.id === "808726038389194752") {
+const userid = 808726038389194752
+
+    if (message.author.id === userid) {
         if(command === 'Fair'){
         message.channel.send('^^^^^^')
     }}
