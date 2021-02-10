@@ -135,6 +135,11 @@ client.on('message', message =>{
 });
 
 client.on('message', message =>{
+    if(!message.content.startsWith('<:insertirl:792920866329198632> ') || message.author.id === client.user.id) return;
+    message.channel.send('Imagine being a gacha-tuber')
+});
+
+client.on('message', message =>{
     if(!message.content.startsWith('april sucks') || message.author.id === client.user.id) return;
     message.channel.send('I agree.')
 });
