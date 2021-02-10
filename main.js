@@ -115,7 +115,14 @@ if(command === 'ss'){
                                                                     "color": 8502783
                                                                   }});
                                                                 }
+
+                                                                if(command === 'ikylikeschicken'){
+                                                                    message.channel.send('https://cdn.discordapp.com/attachments/746911020773146687/808909706986782750/unknown.png')
+                                                                    }
+
+
 });
+
 
 
 client.on('message', message =>{
