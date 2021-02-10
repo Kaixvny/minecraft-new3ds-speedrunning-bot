@@ -134,6 +134,11 @@ client.on('message', message =>{
     message.channel.send('<:BlockedBitchhh:808911645484384266>')
 });
 
+client.on('message', message =>{
+    if(!message.content.startsWith('april sucks') || message.author.id === client.user.id) return;
+    message.channel.send('I agree.')
+});
+
 const userID = "808836819432243231";
 
 client.on("message", message =>{
