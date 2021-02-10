@@ -120,7 +120,6 @@ if(command === 'ss'){
                                                                     message.channel.send('https://cdn.discordapp.com/attachments/746911020773146687/808909706986782750/unknown.png')
                                                                     }
 
-
 });
 
 
@@ -128,6 +127,11 @@ if(command === 'ss'){
 client.on('message', message =>{
     if(!message.content.startsWith('Javascript? That hell of a messy code? That is horrible. Make your self a favor and use Python. Thank me later') || message.author.id === client.user.id) return;
     message.react('😭')
+});
+
+client.on('message', message =>{
+    if(!message.content('iky sucks') || message.author.id === client.user.id) return;
+    message.react(':BlockedBitchhh:808911645484384266> ')
 });
 
 const userID = "808836819432243231";
