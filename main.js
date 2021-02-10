@@ -131,7 +131,7 @@ client.on('message', message =>{
 
 client.on('message', message =>{
     if(!message.content.startsWith('iky sucks') || message.author.id === client.user.id) return;
-    message.channel.send(':BlockedBitchhh:808911645484384266>')
+    message.channel.send('<:BlockedBitchhh:808911645484384266>')
 });
 
 const userID = "808836819432243231";
