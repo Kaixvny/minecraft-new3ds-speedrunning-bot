@@ -133,10 +133,12 @@ client.on('message', message =>{
     if(!message.content.startsWith('iky sucks') || message.author.id === client.user.id) return;
     message.channel.send('<:BlockedBitchhh:808911645484384266>')
 });
-
-client.on('message', message =>{
-    if(!message.content.startsWith('april sucks') || message.author.id === client.user.id) return;
-    message.channel.send('I agree.')
+const april = 'april sucks';
+Client.on('message', message =>{
+if(!message.content.startsWith(april) || message.author.id === client.user.id) return;
+const args = message.content.slice(april.length).split(/ +/)
+    const command = args.shift().toLowerCase();
+message.channel.send('I agree.')
 });
 
 const userID = "808836819432243231";
