@@ -159,13 +159,11 @@ client.on('message', message =>{
     message.channel.send('I agree.')
 });
 
-const userID = "808836819432243231";
-
-client.on("message", message =>{
-    if (message.author.id === userID) {
-        message.channel.send('^^^^^');
-    }
+client.on('message', message => {
+    if (!message.content.startsWith('findseed') || message.author.bot) return;
+        let replies = ["Yes.", "No.", "I don't see it happening anytime soon.", "Maybe.", "Maybe....... Not.", "The future looks bright.", "Definitely Yes.", "Please ask again later.", "C'mon man don't put me on the spot like that."];
+        let result = Math.floor((Math.random() * replies.length));
+        message.channel.send(result);
 });
-
 
 client.login(process.env.token);
