@@ -1,9 +1,9 @@
 # Minecraft New Nintendo 3DS Bot
-
-A Discord bot made for the Obscure Minecraft Speedrunning Server
+An archive of my first every repository / discord bot. Horribily coded but archived for memories.
 
 ## State/Version
 
+A Discord bot made for the Obscure Minecraft Speedrunning Server
 Pre-Alpha, Version: 0.0.12
 
 ###### Update Notice
